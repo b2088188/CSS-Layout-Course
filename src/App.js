@@ -18,6 +18,8 @@ import Practice16 from 'practices/Practice16';
 import Practice17 from 'practices/Practice17';
 import Practice18 from 'practices/Practice18';
 import Practice19 from 'practices/Practice19';
+import Practice20 from 'practices/Practice20';
+import Practice21 from 'practices/Practice21';
 
 const App = () => {
    return (
@@ -41,6 +43,8 @@ const App = () => {
          <Route path='/practice/17' component={Practice17} />
          <Route path='/practice/18' component={Practice18} />
          <Route path='/practice/19' component={Practice19} />
+         <Route path='/practice/20' component={Practice20} />
+         <Route path='/practice/21' component={Practice21} />
       </Switch>
    );
 };
