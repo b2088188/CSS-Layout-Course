@@ -23,6 +23,7 @@ import Practice21 from 'practices/Practice21';
 import Practice22 from 'practices/Practice22';
 import Practice23 from 'practices/Practice23';
 import Practice24 from 'practices/Practice24';
+import Practice25 from 'practices/Practice25';
 
 const App = () => {
    return (
@@ -51,6 +52,7 @@ const App = () => {
          <Route path='/practice/22' component={Practice22} />
          <Route path='/practice/23' component={Practice23} />
          <Route path='/practice/24' component={Practice24} />
+         <Route path='/practice/25' component={Practice25} />
       </Switch>
    );
 };
