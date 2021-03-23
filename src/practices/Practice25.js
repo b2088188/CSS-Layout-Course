@@ -19,7 +19,6 @@ function Practice25() {
 					css={`
 						padding: 5rem 0;
 						max-width: 120rem;
-						max-height: 40rem;
 						margin: auto;
 						display: flex;
 						flex-direction: column;
@@ -29,24 +28,23 @@ function Practice25() {
 						css={`
 							color: #f00;
 							font-size: 8rem;
-							align-self: center;
 							margin-bottom: 5rem;
-							position: relative;
+							display: flex;
+							align-items: center;
 							&:before,
 							&:after {
 								content: '';
-								position: absolute;
+								display: inline-block;
 								height: 1px;
-								width: 100%;
+								width: 5rem;
 								background: #f00;
+								flex: 1;
 							}
 							&:before {
-								left: 0;
-								top: 0;
+								margin-right: 2rem;
 							}
 							&:after {
-								left: 0;
-								bottom: 0;
+								margin-left: 2rem;
 							}
 						`}
 					>
