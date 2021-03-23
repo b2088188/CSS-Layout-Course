@@ -29,23 +29,7 @@ function Practice25() {
 							color: #f00;
 							font-size: 8rem;
 							margin-bottom: 5rem;
-							display: flex;
-							align-items: center;
-							&:before,
-							&:after {
-								content: '';
-								display: inline-block;
-								height: 1px;
-								width: 5rem;
-								background: #f00;
-								flex: 1;
-							}
-							&:before {
-								margin-right: 2rem;
-							}
-							&:after {
-								margin-left: 2rem;
-							}
+							text-align: center;
 						`}
 					>
 						CSS Coke is awesome
@@ -53,7 +37,8 @@ function Practice25() {
 					<div
 						css={`
 							color: #fff;
-
+							padding: 1rem;
+							position: relative;
 							& > p:not(:last-child) {
 								margin-bottom: 2.5rem;
 							}
@@ -61,6 +46,26 @@ function Practice25() {
 								font-size: 4rem;
 								float: left;
 								padding-right: 1rem;
+							}
+							&:before,
+							&:after {
+								content: '';
+								position: absolute;
+								width: 5rem;
+								height: 5rem;
+							}
+
+							&:before {
+								left: 0;
+								top: 0;
+								border-top: solid 1px #aaa;
+								border-left: solid 1px #aaa;
+							}
+							&:after {
+								right: 0;
+								bottom: 0;
+								border-bottom: solid 1px #aaa;
+								border-right: solid 1px #aaa;
 							}
 						`}
 					>
