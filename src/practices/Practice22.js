@@ -99,6 +99,67 @@ function Practice22() {
 					</p>
 				</div>
 			</div>
+			<div
+				css={`
+					max-width: 120rem;
+					margin: auto;
+					padding: 10rem 0;
+				`}
+			>
+				<h1
+					css={`
+						text-align: start;
+						padding: 0 1.5rem;
+						margin-bottom: 3rem;
+						font-size: 10rem;
+						color: #aaa;
+						position: relative;
+
+						&:after {
+							position: absolute;
+							bottom: 0;
+							content: '';
+							display: block;
+							width: 100%;
+							height: 7rem;
+							background: #eee;
+							z-index: -1;
+						}
+					`}
+				>
+					CSS Coke is awesome
+				</h1>
+				<div
+					css={`
+						padding: 1.5rem;
+						column-count: 2;
+						column-gap: 3rem;
+
+						& > p:first-letter {
+							font-size: 4rem;
+							float: left;
+							padding-right: 1rem;
+						}
+					`}
+				>
+					<p>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Consequatur dolorum
+						cupiditate deleniti commodi ad ratione eius, veniam. Porro, sunt. Assumenda ipsa
+						nihil ducimus necessitatibus praesentium quibusdam laborum nobis aliquam
+						doloremque eaque quam doloribus hic tempora voluptates non, repudiandae veritatis
+						impedit tenetur, totam ex inventore temporibus dolore aspernatur? Quis recusandae,
+						optio?
+					</p>
+					<p>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Consequatur dolorum
+						cupiditate deleniti commodi ad ratione eius, veniam. Porro, sunt. Assumenda ipsa
+						nihil ducimus necessitatibus praesentium quibusdam laborum nobis aliquam
+						doloremque eaque quam doloribus hic tempora voluptates non, repudiandae veritatis
+						impedit tenetur, totam ex inventore temporibus dolore aspernatur? Quis recusandae,
+						optio?
+					</p>
+				</div>
+			</div>
 		</div>
 	);
 }
