@@ -153,6 +153,74 @@ function Practice24() {
 						</p>
 					</div>
 				</div>
+
+				<div
+					css={`
+						padding: 5rem 0;
+						max-width: 120rem;
+						max-height: 40rem;
+						margin: auto;
+						display: flex;
+						box-shadow: 0 0 2rem rgba(70, 70, 70, 0.3);
+						justify-content: flex-end;
+						position: relative;
+						overflow: hidden;
+					`}
+				>
+					<h1
+						css={`
+							color: rgba(190, 190, 190, 0.2);
+							font-size: 13rem;
+							position: absolute;
+							top: -8rem;
+							left: 0;
+							line-height: 0.8;
+						`}
+					>
+						CSS Coke is awesome
+					</h1>
+					<div
+						css={`
+							flex: 0 0 60rem;
+							column-count: 2;
+							column-gap: 2rem;
+							position: relative;
+							z-index: 1;
+
+							padding: 1.5rem;
+							& > p {
+								margin-bottom: 1rem;
+							}
+							& > p:first-child:first-letter {
+								font-size: 4rem;
+								float: left;
+								padding-right: 1rem;
+							}
+						`}
+					>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Nulla natus in totam
+							nostrum tempora voluptatum hic architecto amet optio nam laudantium, modi illum
+							eius rem quod animi temporibus, quibusdam, odit. Ipsa, voluptatem sequi
+							praesentium a id quas reiciendis unde consequatur ipsam laudantium, hic
+							voluptatibus, et cum iure ab assumenda quae.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Nulla natus in totam
+							nostrum tempora voluptatum hic architecto amet optio nam laudantium, modi illum
+							eius rem quod animi temporibus, quibusdam, odit. Ipsa, voluptatem sequi
+							praesentium a id quas reiciendis unde consequatur ipsam laudantium, hic
+							voluptatibus, et cum iure ab assumenda quae.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Nulla natus in totam
+							nostrum tempora voluptatum hic architecto amet optio nam laudantium, modi illum
+							eius rem quod animi temporibus, quibusdam, odit. Ipsa, voluptatem sequi
+							praesentium a id quas reiciendis unde consequatur ipsam laudantium, hic
+							voluptatibus, et cum iure ab assumenda quae.
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
