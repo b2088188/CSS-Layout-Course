@@ -29,9 +29,25 @@ function Practice25() {
 						css={`
 							color: #f00;
 							font-size: 8rem;
-							line-height: 0.8;
 							align-self: center;
 							margin-bottom: 5rem;
+							position: relative;
+							&:before,
+							&:after {
+								content: '';
+								position: absolute;
+								height: 1px;
+								width: 100%;
+								background: #f00;
+							}
+							&:before {
+								left: 0;
+								top: 0;
+							}
+							&:after {
+								left: 0;
+								bottom: 0;
+							}
 						`}
 					>
 						CSS Coke is awesome
