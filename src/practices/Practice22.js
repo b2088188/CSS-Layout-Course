@@ -56,6 +56,49 @@ function Practice22() {
 					</p>
 				</div>
 			</div>
+			<div
+				css={`
+					max-width: 120rem;
+					margin: auto;
+					padding: 10rem 0;
+				`}
+			>
+				<h1
+					css={`
+						text-align: end;
+						width: 30rem;
+						padding: 1.5rem;
+						border-right: solid 3px #000;
+						float: left;
+						margin-right: 0.5rem;
+						font-size: 2.5rem;
+					`}
+				>
+					CSS Coke is awesome
+				</h1>
+				<div
+					css={`
+						padding: 1.5rem;
+					`}
+				>
+					<p>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Consequatur dolorum
+						cupiditate deleniti commodi ad ratione eius, veniam. Porro, sunt. Assumenda ipsa
+						nihil ducimus necessitatibus praesentium quibusdam laborum nobis aliquam
+						doloremque eaque quam doloribus hic tempora voluptates non, repudiandae veritatis
+						impedit tenetur, totam ex inventore temporibus dolore aspernatur? Quis recusandae,
+						optio?
+					</p>
+					<p>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Consequatur dolorum
+						cupiditate deleniti commodi ad ratione eius, veniam. Porro, sunt. Assumenda ipsa
+						nihil ducimus necessitatibus praesentium quibusdam laborum nobis aliquam
+						doloremque eaque quam doloribus hic tempora voluptates non, repudiandae veritatis
+						impedit tenetur, totam ex inventore temporibus dolore aspernatur? Quis recusandae,
+						optio?
+					</p>
+				</div>
+			</div>
 		</div>
 	);
 }
