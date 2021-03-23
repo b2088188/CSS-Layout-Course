@@ -6,11 +6,13 @@ function Practice25() {
 		<div
 			css={`
 				font-family: 'Noto Sans TC', sans-serif;
+				background: #000;
+				min-height: 100vh;
 			`}
 		>
 			<div
 				css={`
-					margin: 5rem 0;
+					padding: 5rem 0;
 				`}
 			>
 				<div
@@ -20,36 +22,26 @@ function Practice25() {
 						max-height: 40rem;
 						margin: auto;
 						display: flex;
-						box-shadow: 0 0 2rem rgba(70, 70, 70, 0.3);
-						justify-content: flex-end;
-						position: relative;
-						overflow: hidden;
+						flex-direction: column;
 					`}
 				>
 					<h1
 						css={`
-							color: #fff;
-							text-shadow: 6px 6px 0px rgba(200, 200, 200, 0.5);
-							font-size: 13rem;
-							position: absolute;
-							top: 0;
-							left: 0;
+							color: #f00;
+							font-size: 8rem;
 							line-height: 0.8;
+							align-self: center;
+							margin-bottom: 5rem;
 						`}
 					>
 						CSS Coke is awesome
 					</h1>
 					<div
 						css={`
-							flex: 0 0 60rem;
-							column-count: 2;
-							column-gap: 2rem;
-							position: relative;
-							z-index: 1;
+							color: #fff;
 
-							padding: 1.5rem;
-							& > p {
-								margin-bottom: 1rem;
+							& > p:not(:last-child) {
+								margin-bottom: 2.5rem;
 							}
 							& > p:first-child:first-letter {
 								font-size: 4rem;
